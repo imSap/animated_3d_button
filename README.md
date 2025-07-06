@@ -26,7 +26,7 @@ Add this to your `pubspec.yaml`:
 
 ```yaml
 dependencies:
-  animated_3D_button: ^1.0.0
+  animated_3d_button: ^1.0.0
 ```
 
 Then run:
