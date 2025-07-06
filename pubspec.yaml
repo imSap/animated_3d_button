@@ -1,6 +1,6 @@
 name: animated_3d_button
 description: A customizable animated 3D button with animated shadow effect
-version: 1.0.0
+version: 1.0.1
 homepage: https://github.com/imSap/animated_button
 
 environment:

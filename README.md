@@ -6,7 +6,7 @@
 A customizable animated button widget for Flutter that creates a bouncing elevation/shadow effect using `Stack` and `AnimatedPositioned`.
 
 <p align="center">
-  <img src="assets/animated_button_demo.gif" width="300"/>
+  <img src="https://raw.githubusercontent.com/imSap/animated_3d_button/main/assets/animated_button_demo.gif" width="300" />
 </p>
 
 ---
