@@ -1,4 +1,4 @@
-# 🟦 animated_button
+# 🟦 animated_3D_button
 
 [![pub package](https://img.shields.io/pub/v/animated_button.svg)](https://pub.dev/packages/animated_button)
 [![license: MIT](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
