@@ -1,39 +1,98 @@
-<!--
-This README describes the package. If you publish this package to pub.dev,
-this README's contents appear on the landing page for your package.
+# 🟦 animated_button
 
-For information about how to write a good package README, see the guide for
-[writing package pages](https://dart.dev/tools/pub/writing-package-pages).
+[![pub package](https://img.shields.io/pub/v/animated_button.svg)](https://pub.dev/packages/animated_button)
+[![license: MIT](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
 
-For general information about developing packages, see the Dart guide for
-[creating packages](https://dart.dev/guides/libraries/create-packages)
-and the Flutter guide for
-[developing packages and plugins](https://flutter.dev/to/develop-packages).
--->
+A customizable animated button widget for Flutter that creates a bouncing elevation/shadow effect using `Stack` and `AnimatedPositioned`.
 
-TODO: Put a short description of the package here that helps potential users
-know whether this package might be useful for them.
+<p align="center">
+  <img src="assets/animated_button_demo.gif" width="300"/>
+</p>
 
-## Features
+---
 
-TODO: List what your package can do. Maybe include images, gifs, or videos.
+## ✨ Features
 
-## Getting started
+- Smooth animated shadow/elevation effect
+- Custom size, color, and border radius
+- Haptic feedback on press
+- Lightweight and dependency-free
 
-TODO: List prerequisites and provide or point to information on how to
-start using the package.
+---
 
-## Usage
+## 📦 Installation
 
-TODO: Include short and useful examples for package users. Add longer examples
-to `/example` folder.
+Add this to your `pubspec.yaml`:
 
-```dart
-const like = 'sample';
+```yaml
+dependencies:
+  animated_button: ^1.0.0
 ```
 
-## Additional information
+Then run:
 
-TODO: Tell users more about the package: where to find more information, how to
-contribute to the package, how to file issues, what response they can expect
-from the package authors, and more.
+```bash
+flutter pub get
+```
+
+---
+
+## 🚀 Usage
+
+```dart
+import 'package:animated_button/animated_button.dart';
+
+AnimatedShadowButton(
+  width: 180,
+  height: 55,
+  color: Colors.deepOrange,
+  onPressed: () {
+    // Handle tap
+  },
+  child: const Text(
+    'Click Me',
+    style: TextStyle(
+      color: Colors.white,
+      fontSize: 16,
+      fontWeight: FontWeight.bold,
+    ),
+  ),
+);
+```
+
+---
+
+## 🧪 Example
+
+A full working example is available in the [example](example/lib/main.dart) directory.
+
+To run it:
+
+```bash
+cd example
+flutter run
+```
+
+---
+
+## 🧰 API Reference
+
+| Property       | Type              | Default       | Description                                |
+|----------------|-------------------|---------------|--------------------------------------------|
+| `onPressed`    | `VoidCallback`     | **required**  | Callback fired on button press             |
+| `child`        | `Widget`           | **required**  | The inner content of the button            |
+| `width`        | `double`           | `150`         | Button width                               |
+| `height`       | `double`           | `50`          | Button height                              |
+| `color`        | `Color`            | `Colors.blue` | Background color of the button             |
+
+---
+
+## 🔧 Contributing
+
+Feel free to submit issues or PRs. For major changes, open a discussion first.
+
+---
+
+## 📄 License
+
+MIT © [Saptarshi Mondal](https://github.com/imSap)
